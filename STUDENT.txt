@@ -1,0 +1,4 @@
+Nama: Raynal Haposan Napitupulu
+Username Dicoding: raynalna70
+APP_URL=Belum tersedia; isi setelah aplikasi dipublikasikan
+MAP_SERVICE_API_KEY=Tidak diperlukan; peta memakai layanan OpenStreetMap dan CartoDB Positron.

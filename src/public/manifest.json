@@ -1,0 +1,68 @@
+{
+  "name": "Berbagi Cerita PWA",
+  "short_name": "BerbagiCerita",
+  "description": "Aplikasi interaktif untuk berbagi cerita dan lokasi dengan dukungan offline-first",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/?source=pwa",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "images/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tampilan Desktop Berbagi Cerita"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile Berbagi Cerita"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita Baru",
+      "short_name": "Tambah",
+      "description": "Buat dan bagikan cerita baru dengan foto & lokasi",
+      "url": "./index.html#/add-story",
+      "icons": [
+        {
+          "src": "images/logo-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Cerita Favorit Saya",
+      "short_name": "Favorit",
+      "description": "Lihat koleksi cerita favorit tersimpan",
+      "url": "./index.html#/favorites",
+      "icons": [
+        {
+          "src": "images/logo-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

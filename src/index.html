@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="Story App - Berbagi cerita dan tempat menarik secara interaktif dengan peta dan dukungan PWA offline" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/logo-192.png" />
+    <title>Story App - Berbagi Cerita</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Langsung ke konten utama</a>
+
+    <header class="main-header-wrapper">
+      <div class="main-header container">
+        <a class="brand-name" href="#/" aria-label="Beranda Story App">
+          <span class="brand-icon">📖</span>
+          <span class="brand-text">Story<span class="highlight">App</span></span>
+        </a>
+
+        <div class="header-right">
+          <div class="header-actions">
+            <!-- Push Notification Button auto-injected or placed here -->
+          </div>
+
+          <nav id="navigation-drawer" class="navigation-drawer" aria-label="Navigasi Utama">
+            <ul id="nav-list" class="nav-list">
+              <li><a href="#/">🏠 Beranda</a></li>
+              <li><a href="#/add-story">✨ Tambah Cerita</a></li>
+              <li><a href="#/favorites">❤️ Favorit</a></li>
+              <li><a href="#/about">ℹ️ About</a></li>
+              <li><a href="#/login">🔑 Login</a></li>
+              <li><a href="#/register">📝 Register</a></li>
+            </ul>
+          </nav>
+
+          <button id="drawer-button" class="drawer-button" aria-label="Buka menu navigasi">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1"></main>
+
+    <footer class="main-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 <strong>StoryApp</strong> &mdash; Submission Frontend Web Expert Dicoding.</p>
+      </div>
+    </footer>
+  </body>
+</html>

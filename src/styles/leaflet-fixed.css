@@ -1,0 +1,10 @@
+/* src/styles/leaflet-fixed.css */
+@import 'leaflet/dist/leaflet.css';
+
+/* HANYA INI YANG PERLU DI-FIX */
+.leaflet-container img {
+  max-width: none !important;
+}
+
+/* Hapus semua background-image untuk zoom, marker, dll */
+/* Karena Leaflet sudah otomatis pakai gambar dari dist/images/ */
